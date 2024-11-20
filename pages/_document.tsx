@@ -1,5 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
-import { Adsense } from '~
+import { Adsense } from '
 ../components/adsense/AutoadsScript';
 import { GA_TRACKING_ID } from '../lib/gtag';
 export default class MyDocument extends Document {
