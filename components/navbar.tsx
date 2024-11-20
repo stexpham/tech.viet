@@ -10,7 +10,7 @@ export default function Navbar({ openDrawer }: { openDrawer: () => void; }) {
         <Container>
           <Menu.Item className='main-item'>
             <Link legacyBehavior href='/'>
-              <a className='navbar-text'>Viet.io</a>
+              <a className='navbar-text'>Stepham.io</a>
             </Link>
           </Menu.Item>
           <Menu.Menu position='right'>

@@ -80,9 +80,9 @@ export default function Home({ companies }: { companies: any[] }) {
   return (
     <div>
       <Meta
-        title='Viet.io - Vietnam Companies'
+        title='Stepham.io - Vietnam Companies'
         desc='List of 200+ Vietnam startups and big tech companies. Viet.io is an open-source website built with React and Next.js listing 200+ technology companies in Vietnam.'
-        canonical='https://viet.io/companies' />
+        canonical='https://stepham.io/companies' />
 
       <Page>
         <Container style={{ width: '100vw', margin: '3em 0' }}>

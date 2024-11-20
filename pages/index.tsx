@@ -14,9 +14,9 @@ export default function Home() {
   return (
     <div>
       <Meta
-        title='Viet.io - Vietnam Startup Ecosystem'
+        title='Stepham.io - Vietnam Startup Ecosystem'
         desc='List of 200+ Vietnam startups and big tech companies. Viet.io is an open-source website built with React and Next.js listing 200+ technology companies in Vietnam.'
-        canonical='https://viet.io' />
+        canonical='https://stepham.io' />
        
       <Page inverted footerHidden>
         <div className='hero-image' />

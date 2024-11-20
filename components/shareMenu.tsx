@@ -17,7 +17,7 @@ export default function ShareMenu({ url }: { url: string }) {
         style={{ fontFamily: "Nunito" }}>
         <Dropdown.Item
           as='a'
-          href={`mailto:?subject=Viet.io&body=Check out this Viet.io page: ${url}`}
+          href={`mailto:?subject=stepham.io&body=Check out this stepham.io page: ${url}`}
           target="_blank"
           rel="noopener"
           icon={{ name: 'mail' }}

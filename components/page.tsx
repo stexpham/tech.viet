@@ -23,7 +23,7 @@ export default function Page({ children, inverted, footerHidden }: { children: R
           alignItems: 'center',
         }}>
           <a 
-            href="https://rede.io/?utm_source=Viet.io" 
+            href="https://www.stepham.com/?utm_source=stepham.io" 
             style={{
               fontWeight: 'bold',
               textDecoration: 'none',
@@ -32,7 +32,7 @@ export default function Page({ children, inverted, footerHidden }: { children: R
             target="_blank"
             rel="noopener noreferrer"
           >
-            Check out 📚 Rede.io for your daily tech newsletter!
+            Check out 📚 stepham.com for next developer tools!
           </a>
         </div>
         {children}
@@ -79,7 +79,7 @@ export default function Page({ children, inverted, footerHidden }: { children: R
             target='_blank'>
             <div
               style={{ padding: '0.5em' }}
-              className='navbar-text2'><Icon name='linkify' />Project by René</div>
+              className='navbar-text2'><Icon name='linkify' />Project by Stepham</div>
           </Menu.Item>
           <Menu.Item
             as='a'

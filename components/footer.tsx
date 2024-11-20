@@ -22,8 +22,8 @@ export default function Footer(
             <a
               style={{ color: inverted ? '#BEBEFF' : null, fontSize: '1.2em' }}
               className='card-link'
-              href='https://www.renedeanda.com' target='_blank'>
-              {`© ${new Date().getFullYear()} Open-source Project by `}<b>René DeAnda</b></a>
+              href='https://www.stepham.com' target='_blank'>
+              {`© ${new Date().getFullYear()} Open-source Project by `}<b>Stepham</b></a>
           </Container>
         </Segment>
       </footer> : null
