@@ -4,8 +4,7 @@ import {
   Header,
   Container
 } from 'semantic-ui-react';
-import { Adsense } from '~
-../components/adsense/AutoadsScript';
+
 import Page from '../components/page';
 import Meta from '../components/Meta';
 import Footer from '../components/footer';
@@ -18,7 +17,7 @@ export default function Home() {
         title='Viet.io - Vietnam Startup Ecosystem'
         desc='List of 200+ Vietnam startups and big tech companies. Viet.io is an open-source website built with React and Next.js listing 200+ technology companies in Vietnam.'
         canonical='https://viet.io' />
-       <Adsense />
+       
       <Page inverted footerHidden>
         <div className='hero-image' />
         <Container style={{ width: '100vw', margin: '3em 0' }}>

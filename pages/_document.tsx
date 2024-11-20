@@ -1,10 +1,13 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
+import { Adsense } from '~
+../components/adsense/AutoadsScript';
 import { GA_TRACKING_ID } from '../lib/gtag';
 export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
         <Head>
+        <Adsense />
           <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
